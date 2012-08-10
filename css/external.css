@@ -1,0 +1,101 @@
+/* Text & Visual Elements */
+
+/*------------------------------------*\
+	IPHONE
+\*------------------------------------*/
+@media screen and (max-device-width: 480px){
+body{
+  -webkit-text-size-adjust:none;
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+  padding:5px;
+}}
+
+body {
+  	font-family:Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	background-color: #f8ea1b;
+	}
+
+/*--- COPY ---*/
+p  {font-size: 14px; margin-bottom: 10px; line-height: 21px; font-weight: normal; color:#000;}
+h1 {font-size: 32px; margin-bottom: 15px; line-height: 32px; font-weight: normal; color:#000;}
+h2 {font-size: 28px; margin-bottom: 10px; line-height: 28px; font-weight: normal; color:#000;}
+h3 {font-size: 24px; margin-bottom: 10px; line-height: 24px; font-weight: normal; color:#000;}
+h4 {font-size: 22px; margin-bottom: 10px; line-height: 22px; font-weight: normal; color:#000;}
+h5 {font-size: 20px; margin-bottom: 10px; line-height: 20px; font-weight: normal; color:#000;}
+h6 {font-size: 18px; margin-bottom: 10px; line-height: 18px; font-weight: normal; color:#000;}
+
+hr { 
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #666;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 15px 0 15px 0; 
+	}
+	
+	
+	
+#content ul  {
+	list-style: disc; 
+	margin: 10px 0 10px 30px;
+	font-size: 16px;
+	line-height: 21px;
+	}
+
+a { 
+	text-decoration:underline;
+	color:#000;
+	}
+	
+a:hover { 
+	color:#999;
+	text-decoration:none;
+	}
+
+.left {
+	float: left;
+	text-align: left;
+	}
+	
+.right {
+	float: right;
+	text-align: right;
+	}
+
+/*--- HEADER ---*/
+#header {
+	background:url(../images/headerbg.gif);
+	background-repeat:repeat-x;
+	}	
+	
+	
+	/*--- LOGO ---*/
+		#logo{
+			background:url(../images/logo.png);
+			background-repeat:no-repeat;
+			display:block;
+			width: 320px;
+			height: 180px;
+			text-indent:-9999px;
+			}
+	
+	
+/*--- MAIN AREA ---*/
+
+#body2 {
+	background:url(../images/contentbg.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color: #88ce00;
+	}
+	
+	
+	
+/*--- FOOTER ---*/
+
+#footer {
+	background-color:#f8ea1b;
+	border-top: 1px solid #fff;
+	}

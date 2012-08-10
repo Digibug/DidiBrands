@@ -1,0 +1,29 @@
+/* Layout Elements */
+		
+#header, #body2, #footer {
+	width: 100%;
+	}
+	
+#headercontent, #body2content, #footercontent {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	clear:both;
+	}
+	
+#navtop {
+		display:block;
+		float: left;
+		width: 980px;
+		height: 35px;
+		}
+		
+
+/* Rules for other items */		
+
+	.spacer{
+		clear:both;
+		margin:0;
+		padding:0;
+		}
